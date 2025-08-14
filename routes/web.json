@@ -1,0 +1,16 @@
+{
+    "home" : {
+        "name" : "Home",
+        "path" : "/",
+        "controller" : "HomeController",
+        "handler" : "index",
+        "methods" : ["GET"]
+    },
+    "view_user" : {
+        "name" : "User.View",
+        "path" : "/user/{user_id}/view",
+        "controller" : "UserController",
+        "handler" : "view",
+        "methods" : ["GET"]
+    }
+}
